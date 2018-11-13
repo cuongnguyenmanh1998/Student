@@ -53,5 +53,36 @@ namespace QuanLySinhVien
             textBox2.DataBindings.Add("Text", list, "TenMonHoc");
             textBox3.DataBindings.Add("Text", list, "SoChi");
         }
+
+        private void btThem_Click(object sender, EventArgs e)
+        {
+            string cnStr = "Server=DESKTOP-L99J7R8\\SQLEXPRESS;Database = QLHocVien;Integrated security=true";
+            SqlConnection cn = new SqlConnection(cnStr);
+
+            string MaMonHoc, TenMonHoc, soChi;
+            MaMonHoc = textBox1.Text;
+            TenMonHoc = textBox2.Text;
+            soChi = textBox3.Text;
+           
+
+
+            //Kiem tra 3 thong tin 
+
+            if (string.IsNullOrEmpty(MaMonHoc))
+                return;
+            string sql = "INSERT INTO MONHOC VALUES('" + MaMonHoc + "',N'" + TenMonHoc + "',N'" + soChi + "')";
+            SqlCommand cmd = new SqlCommand(sql, cn);
+
+            cn.Open();
+            int numberOfRows = cmd.ExecuteNonQuery();
+            if (numberOfRows <= 0)
+            {
+                MessageBox.Show("Them that bai ", "Them sinh vien ");
+            }
+            else
+                MessageBox.Show("Them thanh cong ", "Them sinh vien ");
+            dataGridView1.DataSource = getMonHocSinhVien();
+            cn.Close();
+        }
     }
 }
