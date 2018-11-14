@@ -131,19 +131,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\6_79417.jpg" />
+    <None Include="Resources\30024640-愛のギリシャの神エロス-staue.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\10_152704.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\7_127919.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\1_140505.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\35841611_1886673854968664_8732926611768213504_n.jpg" />
+    <None Include="Resources\23632444_343661279438873_8506947466586797966_o.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
