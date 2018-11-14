@@ -59,5 +59,10 @@ namespace QuanLySinhVien
             frmMonHoc frmmh = new frmMonHoc();
             frmmh.ShowDialog();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
