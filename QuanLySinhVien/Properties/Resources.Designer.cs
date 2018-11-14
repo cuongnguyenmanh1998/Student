@@ -63,9 +63,49 @@ namespace QuanLySinhVien.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1_140505 {
+            get {
+                object obj = ResourceManager.GetObject("1_140505", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _10_152704 {
+            get {
+                object obj = ResourceManager.GetObject("10_152704", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _35841611_1886673854968664_8732926611768213504_n {
+            get {
+                object obj = ResourceManager.GetObject("35841611_1886673854968664_8732926611768213504_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _6_79417 {
             get {
                 object obj = ResourceManager.GetObject("6_79417", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _7_127919 {
+            get {
+                object obj = ResourceManager.GetObject("7_127919", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
