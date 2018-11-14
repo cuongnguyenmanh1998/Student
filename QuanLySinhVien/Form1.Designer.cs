@@ -40,7 +40,6 @@
             this.mônHọcToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.báoCáoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lbten = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -139,15 +138,6 @@
             this.lbten.TabIndex = 3;
             this.lbten.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // groupBox1
-            // 
-            this.groupBox1.Location = new System.Drawing.Point(352, 260);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(8, 8);
-            this.groupBox1.TabIndex = 11;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
-            // 
             // imageList1
             // 
             this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
@@ -159,7 +149,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(580, 335);
-            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.lbten);
             this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -190,7 +179,6 @@
         private System.Windows.Forms.ToolStripMenuItem điểmSinhViênToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem lớpHọcToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem mônHọcToolStripMenuItem;
-        private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.ImageList imageList1;
     }
 }
