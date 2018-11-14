@@ -104,12 +104,12 @@
             this.toolStripContainer3.ContentPanel.Controls.Add(this.label3);
             this.toolStripContainer3.ContentPanel.Controls.Add(this.label2);
             this.toolStripContainer3.ContentPanel.Controls.Add(this.label1);
-            this.toolStripContainer3.ContentPanel.Size = new System.Drawing.Size(388, 236);
+            this.toolStripContainer3.ContentPanel.Size = new System.Drawing.Size(388, 219);
             this.toolStripContainer3.LeftToolStripPanelVisible = false;
             this.toolStripContainer3.Location = new System.Drawing.Point(539, 67);
             this.toolStripContainer3.Name = "toolStripContainer3";
             this.toolStripContainer3.RightToolStripPanelVisible = false;
-            this.toolStripContainer3.Size = new System.Drawing.Size(388, 236);
+            this.toolStripContainer3.Size = new System.Drawing.Size(388, 219);
             this.toolStripContainer3.TabIndex = 8;
             this.toolStripContainer3.Text = "toolStripContainer3";
             this.toolStripContainer3.TopToolStripPanelVisible = false;
@@ -177,7 +177,7 @@
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(505, 435);
+            this.dataGridView1.Size = new System.Drawing.Size(376, 219);
             this.dataGridView1.TabIndex = 0;
             // 
             // toolStripContainer1
@@ -187,12 +187,12 @@
             // toolStripContainer1.ContentPanel
             // 
             this.toolStripContainer1.ContentPanel.Controls.Add(this.dataGridView1);
-            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(505, 435);
+            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(376, 219);
             this.toolStripContainer1.LeftToolStripPanelVisible = false;
             this.toolStripContainer1.Location = new System.Drawing.Point(28, 67);
             this.toolStripContainer1.Name = "toolStripContainer1";
             this.toolStripContainer1.RightToolStripPanelVisible = false;
-            this.toolStripContainer1.Size = new System.Drawing.Size(505, 435);
+            this.toolStripContainer1.Size = new System.Drawing.Size(376, 219);
             this.toolStripContainer1.TabIndex = 6;
             this.toolStripContainer1.Text = "toolStripContainer1";
             this.toolStripContainer1.TopToolStripPanelVisible = false;
@@ -201,7 +201,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(955, 511);
+            this.ClientSize = new System.Drawing.Size(955, 370);
             this.Controls.Add(this.toolStripContainer3);
             this.Controls.Add(this.toolStripContainer2);
             this.Controls.Add(this.toolStripContainer1);
