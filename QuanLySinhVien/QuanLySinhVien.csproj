@@ -130,11 +130,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <None Include="Resources\30024640-愛のギリシャの神エロス-staue.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\23632444_343661279438873_8506947466586797966_o.jpg" />
+    <None Include="Resources\sinh-vien-0701439.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
